@@ -1,0 +1,74 @@
+OBJECT ORIENTED MODELING AND DESIGN (CXT 309)
+                              Module - 2 (Dynamic and Functional modeling)
+1.	What is an event and a state?
+2.	What is a scenario?
+3.	What is an event trace diagram?
+4.	What is a state diagram?
+5.	Describe the various notations in a state diagram (example)
+6.	What are conditions?
+7.	What are operations?
+8.	What is a nested state diagram?
+
+
+Module 4 questions
+1.What are the steps of Object  Design?
+2.Write note on designing algorithm
+
+
+OBJECT ORIENTED MODELING AND DESIGN (CXT 309)
+                              Module - 2 (Dynamic and Functional modeling)
+1.	What is an event and a state?
+2.	What is a scenario?
+3.	What is an event trace diagram?
+4.	What is a state diagram?
+5.	Describe the various notations in a state diagram (example)
+6.	What are conditions?
+7.	What are operations?
+8.	What is a nested state diagram?
+9.	What is entry and exit actions?
+10.	What is an internal action?
+11.	What is control flow?
+12.	What is a DFD?
+13.	What is a process?
+14.	What is dataflow?
+15.	What are actors?
+16.	What is a datastore?
+17.	What are operations?
+18.	What are constraints?
+19.	Describe about aggregation concurrency
+20.	 Explain automatic transition with a diagram.
+21.	Write note on Sending Events.
+22.	Synchronization of Concurrent Activities
+23.	Describe process and data flows used in data flow diagrams
+24.	Write note on specifying operations.
+
+
+
+OBJECT ORIENTED MODELING AND DESIGN (CXT 309)
+                              Module - 3 (Analysis and System Design)
+1.	Explain about Object Modeling
+2.	List the steps performed in constructing an object model
+3.	Explain how Object Classes are identified in object model
+4.	Explain how unnecessary and incorrect classes are discarded in object model
+5.	Explain about Dynamic Modeling.
+6.	List the steps performed in constructing dynamic model
+7.	Explain how to prepare a Scenario in dynamic modeling.
+8.	Write about Interface Formats.
+9.	Explain how to identify events between objects in dynamic model
+10.	Explain how to build a State Diagram in dynamic model
+11.	Explain about Functional Modeling.
+12.	List the steps performed in constructing functional model
+13.	How input and output values are identified in functional model
+14.	Write the steps involved in system design
+
+
+OBJECT ORIENTED MODELING AND DESIGN
+Assignment 2 
+Date of Submission:29.10.2024
+
+1.	Explain the different software engineering approaches
+	(Structured Analysis/Structured Design,
+	Jackson Structured Development,Information Modeling etc.) 
+	and compare with OMT
+
+2.	What is UML ? Explain the different types of UML Diagrams.
