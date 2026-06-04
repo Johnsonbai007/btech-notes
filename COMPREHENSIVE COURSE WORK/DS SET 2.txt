@@ -1,0 +1,500 @@
+DS SET 2
+
+1. The data structure required for Breadth First Traversal on a graph is.
+A. Stack
+B. Array
+C. Queue 
+D. Tree
+ANSWER: C
+
+2. Given two Balanced binary search trees, B1 having n elements and B2 having m elements, what is the time complexity of the best known algorithm to merge these trees to form another balanced binary tree containing m+n elements ?
+A. O(m+n)
+B. O(mlogn)
+C. O(nlogm)
+D. O(m2 + n2)
+ANSWER: A
+
+
+3. The post order traversal of binary tree is DEBFCA. Find out the pre order traversal.
+A. ABFCDE
+B. ADBFEC
+C. ABDECF
+D. ABDCEF
+ANSWER: C
+
+4. The in-order traversal of tree will yield a sorted listing of elements of tree in.
+A. Binary trees
+B. Binary search trees
+C. Heaps
+D. Binary heaps
+ANSWER: B
+
+5. Three standards ways of traversing a binary tree T with root R.
+A. Prefix, infix, postfix
+B. Pre-process, in-process, post-process
+C. Pre-traversal, in-traversal, post-traversal
+D. Pre-order, in-order, post-order
+ANSWER: D
+
+6. TREE[1]=NULL indicates tree is.
+A. Overflow
+B. Underflow
+C. Empty
+D. Full
+ANSWER: C
+
+7. Which indicates pre-order traversal?
+A. Left sub-tree, Right sub-tree and root
+B. Right sub-tree, Left sub-tree and root
+C. Root, Left sub-tree, Right sub-tree
+D. Right sub-tree, root, Left sub-tree
+ANSWER: C
+
+
+8. Which of the following statement(s) is TRUE? I) A hash function takes a message of arbitrary length and generates a fixed length code. II) A hash function takes a message of fixed length and generates a code of variable length. III) A hash function may give the same hash value for distinct messages.
+A. I only
+B. II and III only
+C. I and III only
+D. II only
+ANSWER: C
+
+9. Consider a hash function that distributes keys uniformly. The hash table size is 20. After hashing of how many keys will the probability that any new key hashed collides with an existing one exceed 0.5.
+A. 5
+B. 6
+C. 7
+D. 10
+ANSWER: D
+
+10. An advantage of chained hash table (external hashing) over the open addressing scheme is
+A. Worst case complexity of search operations is less
+B. Space used is less
+C. Deletion is easier
+D. None of the above
+ANSWER: C   
+
+11. In max heap, element with greatest key is which node
+A. leaf node	
+B. root node	
+C. first node of left sub tree	
+D. first node of right sub tree
+ANSWER: B
+
+12. What is the average case complexity of insertion sort
+A. O(nlogn)	
+B. O(logn)	
+C. O(n)	
+D. O(n^2)
+ANSWER: D
+
+13. DFS search is equivalent to which of the traversal in the binary tree
+A. pre-order	
+B. post-order	
+C. in-order	
+D. level order
+ANSWER: A
+
+14. Merge sort use which of the following approach
+A. divide and conquer	
+B. back tracking		
+C. heuristic approach	
+D. greedy approach
+ANSWER: A
+
+15. How many times a node is visited in BFS
+A. one	
+B. two	
+C. number of indegree of node	
+D. none
+ANSWER: C
+
+
+16. Suppose we are sorting an array of eight integers using heapsort, and we have just finished some heapify (either maxheapify or minheapify) operations. The array now looks like this: 16 14 15 10 12 27 28 How many heapify operations have been performed on root of heap?
+A. 1
+B. 2
+C. 3 or 4
+D. 5 or 6
+ANSWER: B
+
+17. Consider a binary max-heap implemented using an array. Which one of the following array represents a binary max-heap? 
+A. 25,12,16,13,10,8,14
+B. 25,12,16,13,10,8,14
+C. 25,14,16,13,10,8,12
+D. 25,14,12,13,10,8,16
+ANSWER: C
+
+18. In a binary max heap containing n numbers, the smallest element can be found in time 
+A. 0(n)
+B. O(logn)
+C. 0(loglogn)
+D. 0(1)
+ANSWER: A
+
+19. A complete binary min-heap is made by including each integer in [1, 1023] exactly once. The depth of a node in the heap is the length of the path from the root of the heap to that node. Thus, the root is at depth 0. The maximum depth at which integer 9 can appear is 
+A. 6
+B. 7
+C. 8
+D. 9
+ANSWER: C
+
+20. The minimum number of interchanges needed to convert the array 89, 19, 40, 17, 12, 10, 2, 5, 7, 11, 6, 9, 70 into a heap with the maximum element at the root is
+A. 0
+B. 1
+C. 2
+D. 3
+ANSWER: C
+
+21. Consider a hash table of size seven, with starting index zero, and a hash function (3x + 4)mod7. Assuming the hash table is initially empty, which of the following is the contents of the table when the sequence 1, 3, 8, 10 is inserted into the table using closed hashing? Note that ‘_’ denotes an empty location in the table.
+A. 8, _, _, _, _, _, 10
+B. 1, 8, 10, _, _, _, 3
+C. 1, _, _, _, _, _,3
+D. 1, 10, 8, _, _, _, 3
+ANSWER: B
+
+22. Given the following input (4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199) and the hash function x mod 10, which of the following statements are true? i. 9679, 1989, 4199 hash to the same value ii. 1471, 6171 has to the same value iii.All elements hash to the same value iv. Each element hashes to a different value
+A. i only
+B. ii only
+C. i and ii only
+D. iii or iv
+ANSWER: C
+
+23. Consider a hash table with 100 slots. Collisions are resolved using chaining. Assuming simple uniform hashing, what is the probability that the first 3 slots are unfilled after the first 3 insertions?
+A. (97 × 97 × 97)/1003
+B. (99 × 98 × 97)/1003
+C. (97 × 96 × 95)/1003
+D. (97 × 96 × 95)/(3! × 1003)
+ANSWER: A
+
+24. Which one of the following hash functions on integers will distribute keys most uniformly over 10 buckets numbered 0 to 9 for i ranging from 0 to 2020?
+A. h(i) =i2 mod 10
+B. h(i) =i3 mod 10
+C. h(i) = (11 * i2) mod 10
+D. h(i) = (12 * i) mod 10
+ANSWER: B
+
+25. Given a hash table T with 25 slots that stores 2000 elements, the load factor a for T is __________
+A. 80
+B. 0.0125
+C. 8000
+D. 1.25
+ANSWER: A
+
+26. Level of a node is distance from root to that node. For example, level of root is 1 and levels of left and right children of root is 2. The maximum number of nodes on level i of a binary tree is. 
+A. 2^(i)-1
+B. 2^i
+C. 2^(i+1)
+D. 2^[(i+1)/2]
+ANSWER: A
+
+27. The maximum number of binary trees that can be formed with three unlabeled nodes is:
+A. 1
+B. 5
+C. 4
+D. 3
+ANSWER: B
+
+28. Given an undirected graph G with V vertices and E edges, the sum of the degrees of all vertices is
+A. E
+B. 2E
+C. V
+D. 2V
+ANSWER: B
+
+29. Which of the following is an advantage of adjacency list representation over adjacency matrix representation of a graph?
+A. In adjacency list representation, space is saved for sparse graphs.
+B. DFS and BSF can be done in O(V + E) time for adjacency list representation. These operations take O(V^2) time in adjacency matrix representation. Here is V and E are number of vertices and edges respectively.
+C.  Adding a vertex in adjacency list representation is easier than adjacency matrix representation.
+D. All of the above
+ANSWER: D 
+
+30. The worst case running times of Insertion sort, Merge sort and Quick sort, respectively, are:
+A. T(n log n), T(n log n) and T(n2)
+B. T(n2), T(n2) and T(n Log n)
+C. T(n2), T(n log n) and T(n log n)
+D. T(n2), T(n log n) and T(n2)
+ANSWER: D
+
+
+31. The pre-order traversal of a binary search tree is given by 12, 8, 6, 2, 7, 9, 10, 16, 15, 19, 17, 20.
+Then the post-order traversal of this tree is:
+A. 2, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20
+B. 2, 7, 6, 10, 9, 8, 15, 17, 20, 19, 16, 12
+C. 7, 2, 6, 8, 9, 10, 20, 17, 19, 15, 16, 12
+D. 7, 6, 2, 10, 9, 8, 15, 16, 17, 20, 19, 12
+ANSWER: B 
+
+
+32. What is the average case complexity of bubble sort
+A. O(nlogn)	
+B. O(logn)	
+C. O(n)	
+D. O(n^2)
+ANSWER: D
+
+33. A pivot element to partition unsorted list is used in
+A. merge sort	
+B. quick sort	
+C. insertion sort		
+D. selection sort
+ANSWER: B
+
+34. Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+    A. Insertion Sort    B. Quick Sort	  C. Heap Sort	  D. Merge Sort
+ANSWER: D
+
+35. Consider an undirected graph G with 100 nodes. The maximum number of edges to be included in G so that the graph is not connected is
+	A) 2451
+	B) 4950
+	C) 4851
+	D) 9900
+Answer: C	
+
+36. The min. number of nodes in a binary tree of depth d (root at level 0) is
+A) 2d - 1
+B) 2d + 1 - 1
+C) d + 1
+D) d
+Answer C	
+Counting the root node the minimum number of nodes will be d+1. this can be verified by taking either left or right skewed binary tree with any arbitrary depth D)
+
+
+37. The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)? (GATE CS 2004)
+A) 2
+B) 3
+C) 4
+D) 6
+Answer: B
+
+38. Level order traversal of a rooted tree can be done by starting from the root and performing (GATE CS 2004)
+A) preorder traversal
+B) in-order traversal
+C) depth first search
+D) breadth first search
+Answer: D
+
+39. Given the following input (4322, 1334, 1471, 9679, 1989, 6171, 6173, 4199) and the hash function x mod 10, which of the following statements are true?
+i. 9679, 1989, 4199 hash to the same value
+ii. 1471, 6171 has to the same value
+iii. All elements hash to the same value
+iv. Each element hashes to a different value
+(GATE CS 2004)
+A) i only
+B) ii only
+C) i and ii only
+D) iii or iv
+Answer: C
+
+40. Which one of the following in place sorting algorithms needs the minimum number of swaps? (GATE CS 2006)
+A) Quick sort
+B) Insertion sort
+C) Selection sort
+D) Heap sort
+Answer: C
+For selection sort, number of swaps required is minimum ( ? (n) ).
+
+41. You have an array of n elements. Suppose you implement quicksort by always choosing the central element of the array as the pivot. Then the tightest upper bound for the worst case performance is
+
+A)O(n2)
+B)O(nLogn)
+C)T(nLogn)
+D) O(n3)
+Answer: A
+The middle element may always be an extreme element (minimum or maximum) in sorted order, therefore time complexity in worst case becomes O(n2)
+
+42. A graph is a collection of nodes, calleD)..... And line segments called arcs or ...... that connect pair of nodes.
+ A) vertices, paths 
+B) vertices, edges 
+C) graph node, edges 
+D) edges, vertices
+Answer:B
+
+43. The complexity of linear search algorithm is
+ A) O(n) 
+B) O(log n) 
+C) O(n2)
+ D) O(n log n)
+Answer: A 
+
+44. The complexity of Binary search algorithm is 
+A) O(n)
+B) O(log ) 
+C) O(n2) 
+D) O(n log n)
+Answer: B 
+
+45. The complexity of Bubble sort algorithm is
+ A) O(n) 
+B) O(log n) 
+C) O(n2)
+ D) O(n log n)
+Answer: C
+
+46. The complexity of merge sort algorithm is 
+A) O(n) 
+B) O(log n)
+ C) O(n2)
+ D) O(n log n)
+Answer: D
+
+47. A binary search tree whose left subtree and right subtree differ in height by at most 1 unit is called ……
+A) AVL tree
+B) Red-black tree
+C) Lemma tree
+D) None of the above
+Answer: A
+
+
+48. Construct a binary search tree by inserting 8, 6, 12, 3, 10, 9 one after another. To make the
+resulting tree as AVL tree which of the following is required?
+(A) One right rotation only
+(B) One left rotation followed by two right rotations
+(C) One left rotation and one right rotation
+(D) The resulting tree itself is AVL
+ANSWER: A
+
+49. In a complete 4-ary tree, every internal node has exactly 4 children or no child. The number
+of leaves in such a tree with 6 internal nodes is:
+(A) 20   (B) 18   (C) 19   (D) 17
+ANSWER: C
+
+50. Consider a hash table of size seven, with starting index zero, and a hash function (2x + 5)
+mod7. Assuming the hash table is initially empty, which of the following is the contents of
+the table when the sequence 1, 4, 9, 6 is inserted into the table using closed hashing? Note
+that ‘_’ denotes an empty location in the table.
+(A) 9, _, 1, 6, _, _, 4 (B) 1, _, 6, 9, _, _, 4
+(C) 4, _, 9, 6, _, _, 1 (D) 1, _, 9, 6, _, _, 4
+ANSWER: D
+
+51. Consider the following C program where TreeNode represents a node in a binary tree
+struct TreeNode{
+struct TreeNode *leftChild;
+struct TreeNode *rightChild;
+int element;
+};
+int CountNodes(struct TreeNode *t)
+{
+if((t==NULL)||((t->leftChild==NULL) && (t->rightChild==NULL)))
+return 0;
+else
+{
+return 1+CountNodes(t->leftChild)+CountNodes(t->rightChild)
+}
+}
+The value returned by CountNodes when a pointer to the root of a binary tree is passed as its
+argument is
+(A) number of nodes
+(B) number of leaf nodes
+(C) number of non-leaf nodes
+(D) number of leaf nodes-number of non-leaf nodes
+ANSWER: C
+
+52. How many distinct binary search trees can be created out of 6 distinct keys?
+(A) 7 (B) 36 (C) 140 (D) 132
+ANSWER: D
+
+
+53. In a complete k-ary tree, every internal node has exactly k children or no child. 
+The number of leaves in such a tree with n internal nodes is:
+a) nk 	    b) (n – 1) k+ 1 	c) n( k – 1) + 1 	d) n(k – 1)
+ANSWER: C
+
+54. If a node in a Binary search tree has two children, then its inorder predecessor has .........
+a) No child      b) No left child     c) No right child    d) Two children
+ANSWER: C
+
+55. Using Bubble sort, the number of interchanges required to sort 5, 1, 6, 2 and 4 in ascending
+order is...........
+a) 7    b) 5      c) 8     d) 6
+ANSWER: B
+
+56. The data structure used in breadth first search algorithm is ...........
+a) queue       b) stack        c) heap       d) hash table
+ANSWER: A
+
+57. The Inorder and Preorder traversal of a binary tree is d b e a f c g and a b d e c f g respectively. Which
+among the following is the correct Post Order Traversal Sequence for this tree?
+a) d e b f g c a            b) e d b g f c a            c) e d b f g c a        d) d e f g b c a
+ANSWER: A
+
+58. Suppose we are sorting an array of eight integers using heapsort, and we have just finished some
+heapify (either maxheapify or minheapify) operations. The array now looks like this:  16 14 15 10 12 27 28
+How many heapify operations have been performed on root of heap?
+a) 1            b) 2           c) 3 or 4          d) 5 or 6
+ANSWER: B
+
+59. What is the number of edges present in a complete graph having n vertices?
+a) (n*(n+1))/2           b) (n*(n-1))/2             c) n            d) Information given is insufficient
+ANSWER: B
+
+60. If several elements are competing for the same bucket in the hash table, what is it called?
+a) Diffusion           b) Replication          c) Collision          d) Duplication
+ANSWER: C
+
+61. A binary search tree is constructed out of the keys 5, -1, 12, 30, 15, 2, -87. The inorder
+traversal of this tree is
+(A)5, -1, 2, 30, 15, 12, -87		(B) 5, 2, -1, 15, 30, 12, -87
+(C) -87, -1, 2, 5, 12, 15, 30		(D)-1, 2, 5, 30, 12, 15, -87
+ANSWER: C
+
+62. Depth first algorithm can be implemented using
+(A) Heap 	(B)Stack 	(C)Queue 	(D)Deque
+ANSWER: B
+
+63. The sorting technique in which the smallest element from the unsorted sublist is swapped
+with the element at the beginning of the unsorted sublist is
+(A)Selection sort 	(B)Insertion sort	(C)Quick sort 	(D)Bubble sort
+ANSWER: A
+
+64. A hash function f defined as f(key)= key mod 7, with linear probing used to resolve collisions.
+Insert the keys 37,38,72,48,98 and 11 into the table indexed from 0 to 6. What will be the
+location of 11?
+a) 3      b) 5        c) 4        d) 6
+ANSWER: B
+
+65.  Consider a situation where swap operation is very costly. Which of the following sorting
+algorithms should be preferred so that the number of swap operations are minimized in general?
+a) Heap Sort         b) Selection Sort        c) Insertion Sort        d) Merge Sort
+ANSWER: B
+
+66. Which of the following statement(s) is TRUE?
+1. A hash function takes a message of arbitrary length and generates a fixed length code.
+2. A hash function takes a message of fixed length and generates a code of variable length.
+3. A hash function may give the same hash value for distinct messages.
+a) I only      b) II and III only      c) II only         d) I and III only
+ANSWER: D
+
+67. In a max-heap, element with the greatest key is always in the which node?
+a) Leaf node         b) Leftmost node of the right subtree of the root.
+c) root node         d) Rightmost node of the left subtree of the root.
+ANSWER: C
+
+68. What is a hash table?
+a) A structure that maps values to keys
+b) A structure that maps keys to values
+c) A structure used for storage
+d) A structure used to implement stack and queue
+ANSWER: B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
